@@ -54,7 +54,7 @@ Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'in
 - Esempio: correct minor typos in code
 
 
-## 💈 Padrões de emojis
+## 💈 Modelli di emoji
 
 <table>
   <thead>
