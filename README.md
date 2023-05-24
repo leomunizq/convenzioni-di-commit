@@ -51,7 +51,7 @@ Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'in
 - Body: descrizioni più precise di ciò che è contenuto nel commit, presentando gli impatti e le ragioni per cui sono state apportate le modifiche al codice, nonché le istruzioni essenziali per gli interventi futuri. 
   Esempio: see the issue for details on typos fixed.
 - Descrizioni**: una breve descrizione della modifica.
-  Esempio: correct minor typos in code
+- Esempio: correct minor typos in code
 
 
 ## 💈 Padrões de emojis
@@ -181,7 +181,7 @@ Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'in
       <td></td>
     </tr>
     <tr>
-      <td>Revertire le modifiche</td>
+      <td>disfare modifiche</td>
       <td>💥 <code>:boom:</code></td>
       <td><code>fix</code></td>
     </tr>
@@ -228,7 +228,7 @@ Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'in
   </tbody>
 </table>
 
-## 💻 Exemplos
+## 💻 Esempi
 
 <table>
   <thead>
@@ -282,9 +282,9 @@ Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'in
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":boom: fix: Revertendo modifiche inefficienti"</code>
+        <code>git commit -m ":boom: fix: disfare modifiche inefficienti"</code>
       </td>
-      <td>💥 fix: Revertendo modifiche inefficienti</td>
+      <td>💥 fix: disfare modifiche inefficienti</td>
     </tr>
     <tr>
       <td>
