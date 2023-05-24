@@ -2,7 +2,7 @@
 📄<br>Modelli di Commit
 </h1>
 
-Secondo la documentazione di Conventional Commits, i commit semantici sono una semplice convenzione da utilizzare nei messaggi di commit.
+Secondo la documentazione di [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) , i commit semantici sono una semplice convenzione da utilizzare nei messaggi di commit.
 
 Questa convenzione stabilisce un insieme di regole per creare un registro dei commit esplicito, che facilita la creazione di strumenti automatizzati.
 
@@ -11,7 +11,7 @@ Questi commit aiuteranno te e il tuo team a capire facilmente quali modifiche so
 Questa identificazione avviene attraverso una parola e un'emoji che identifica se quel commit riguarda una modifica del codice, un aggiornamento dei pacchetti, la documentazione, una modifica visuale, un test...
 
 
-## 🦄 Tipo e Descrizione
+## 🦊 Tipo e Descrizione
 Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'intenzione del tuo commit all'utilizzatore del tuo codice.
 
 - `feat`- I commit di tipo feat indicano che il pezzo di codice include una **nuova funzionalità**, (relativa al MINOR del versioning semantico).
@@ -306,3 +306,9 @@ Il commit semantico ha i seguenti elementi strutturali (tipi), che indicano l'in
     </tr>
   </tbody>
 </table>
+
+
+## 🔧 Implementazione:
+
+Per implementarlo nel proprio progetto, è necessario installare gli strumenti necessari per facilitare l'uso dei commit convenzionali. Ci sono due opzioni popolari: [Commitlint](https://github.com/conventional-changelog/commitlint) e [Commitizen](https://github.com/commitizen-tools/commitizen)
+
